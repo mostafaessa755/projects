@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial,Arial, Helvetica, sans-serif;
+    
+}
+
+.button-up{
+    position:absolute;
+}
+
+.overly-general{
+    opacity:0.9;
+    background:#1f2d3d;
+    top:0px;
+    left:0px;
+    position:fixed;
+    width:100%;
+    height:100%;
+
+}
+
+.overly-change{
+     display:block;
+}
+.modal-register{
+    position:absolute;
+    top:10%;
+    left:35%;
+    width:350px;
+    height:auto;
+    display:block;
+    text-align:center;
+}
+.model-title-body{
+    border-radius: 10px;
+    width:350px;
+    height:472px;
+    background-color:#ffffff;
+}
+.modal-title{
+    height:115px;
+    width:308px;
+    font-family: 'Roboto Slab', serif;
+    border-bottom:1px solid #d3dce6;
+    margin:0% 6% 0% 6%;
+
+}
+.modal-title h2{
+    margin:0px;
+    color:#3c4859;
+    padding-top:25px;
+    font-size:36px;
+    font-weight:600;
+}
+.modal-title p{
+    margin:0px;
+    color:#9facbd;
+    padding-top:4px;
+}
+.modal-body{
+    padding:20px;
+    height:314px; 
+}
+form{
+    margin:0px;
+    height:319px;
+    width:310px;
+}
+
+.input-group{
+    margin-bottom:13px;
+    height:76px;
+    width: 100%;
+    text-align:left;  
+}
+label{
+    font-size:13px;
+}
+.input{
+    height:51px;
+    margin-top: 6px;
+}
+img{
+    width:17px;
+    height:17px;
+    position:absolute;
+}
+.first-imgs1-left{
+    left: 34px;
+}
+.first-imgs1{
+    top: 174px;
+}
+.first-imgs2{
+    top: 264px;
+}
+.first-imgs3{
+    top: 353px;
+}
+.first-imgs2-display{
+    display:none;
+}
+.last-imgs{
+    left: 300px;
+    display:none;
+}
+.last-imges1{
+    top: 176px;
+}
+.last-imges2{
+    top: 266px;
+}
+.last-imges3{
+    top: 355px;
+}
+
+.inuser-general{
+    border-radius:5px;
+    padding-left:40px;
+    padding-right:37px;
+    width: 233px;
+    height: 45px;
+    outline:none;
+    border:1px solid #d3dce6;
+
+}
+.inuser-defulte:hover{
+    border-color:#aaaaaa;
+}
+.inuser-defulte:focus{
+    border:1px solid #10a5e8;
+}
+
+.dbtn{
+    height:52px;
+    width:310px;
+    color:#fff;
+    background-color:#10a5e8;
+    font-size: 19px;
+    font-weight: 700;
+    border:0px;
+    border-radius: 10px;
+}
+.modal-footer{
+    height:62px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.modal-footer a{
+    color:#10a5e8;
+}

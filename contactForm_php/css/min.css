@@ -1,0 +1,78 @@
+/* start form */
+body{
+    background-color: #f1f1f1;
+}
+.alert{
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: -2px;
+    color: #6e6c6c;
+}
+.class-form{
+    max-width: 500px;
+    margin: 20px auto;
+}
+.class-form .form-groub{
+    margin-bottom: 0;
+    position: relative;
+}
+
+.class-form input,
+.class-form textarea{
+    margin-bottom: 5px;
+    padding-right: 25px;
+}
+.class-form .cell{
+    padding-left: 63px;
+}
+.class-form input{
+    padding-left: 38px;
+
+}
+.class-form textarea{
+    height: 180px !important;
+}
+.class-form input:not([type="submit"]) + i
+{
+    float: left;
+    position: relative;
+    top: -30px;
+    left: 12px;
+    color: #999999;
+    height: 0;
+}
+.class-form .form-groub .asterisx{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 24px;
+    color: #d12f2f;
+}
+
+.class-form .form-groub .custm-alert{
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    display: none;
+}
+.class-form  .submit-icon{
+    display: block;
+    top: -30px;
+    position: relative;
+    left: 8px;
+    color: white;
+}
+.class-form .key{
+    position: relative;
+    height: 0;
+    float: left;
+    top: -32px;
+    left: 36px;
+    font-weight: 600;
+    color: #999999;
+
+}
+/* end form */

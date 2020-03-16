@@ -1,0 +1,532 @@
+/* start main rules*/
+body{
+    
+
+background-color: #252F31;
+font-family: 'Roboto', sans-serif;
+
+
+}
+.contener{width:1130px;
+         margin:auto;
+         
+}
+.body{
+    width:1350px;
+    height: 100%;
+    margin: auto;
+    background-color:#ffffff;
+}
+/* end main rules*/
+/* start header*/
+.header .slider {
+    
+    width:1350px;
+    height:800px;
+    
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.header .navbar{
+    background-color:#252F31;
+    color:#FFF;
+    padding: 0px;
+    height: 1.38cm;
+    
+    }
+
+    .header .navbar h2{
+        height:40px;
+        margin:0px;
+        padding: 0px;
+    }
+
+.header .navbar h2 .lof{
+    background-color: #485253;
+    padding: 5px 10px;
+}
+.header .navbar h2 .los{
+    color:#2ecc71;
+}
+.header .navbar h2 {
+    text-transform:uppercase;
+    float:left;
+    margin-top: 9px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.header .navbar ul{
+    list-style:none;
+    float:right;
+    overflow:hidden;
+    margin-top: 7px;
+    font-size: 20px;
+    width:800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    
+}
+.header .navbar ul li{
+    float:left;
+    padding:10px;
+    
+
+}
+.header .navbar ul li a{
+    color:#FFF;
+    text-decoration: none;
+
+}
+.header .navbar ul li a:hover{
+    color:#2ecc71;
+}
+.header .navbar ul li ul{
+   width: 150px;
+   height: 175px;
+   display: none;
+   background-color: #252F31;
+   position:absolute;
+   text-align: center;
+   margin: 0px;
+   padding:5px;
+
+
+   
+
+}
+.header .navbar ul li ul li{
+    width: 85%;
+    
+    padding:9;
+    margin: 0px;
+    
+}
+.header .navbar ul li ul li a{
+    width:100%;
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header .navbar ul li:hover ul{
+    display: block;
+}
+.header .navbar ul li ul li:hover{
+    border:1px solid white;
+}
+.header .navbar ul li ul li:hover a{
+    color: #2dcc70;
+
+}
+
+
+
+/* end header*/
+/*start hops*/
+.hop {
+    color:#555e63;
+    
+    height: 300px;
+    overflow: hidden;
+}
+.hop .contener .val{
+    float:left;
+    padding-right:30px;
+    width:343px;
+    line-height: 25px;
+
+    padding-top:50px;
+}
+/*end hops*/
+/*start about me*/
+.about {
+    height:620px;
+    width:100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.about .aboutimg{
+    width:40%;
+    height: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.about .aboutimg img{
+    width:100%;
+    height: 100%;
+}
+.about .contener .aboutme{
+
+    height:620;
+    
+    float:right;
+    width:54%;
+    color: #555e63;
+    margin:0px ;
+    
+    
+
+}
+.about .aboutme .aboutmeh{
+    line-height: 25px;
+
+    margin-top:50px;
+    margin-bottom: 70px;
+    width:100%;
+}
+.about .aboutme .aboutmeh p{
+    margin: 0px;
+}
+.about .aboutme .ic{
+    
+    width:100%;
+    height: 250px;
+
+}
+
+.about .aboutme .in{
+    
+    height: 100%;
+    width: 250px;
+    float: left;
+    
+    
+
+
+}
+.about .aboutme .im{
+    
+    width: 250px;
+    height: 100%;
+    float: right;
+    
+    
+}
+.about .aboutme .i1{
+    
+    width: 100%;
+}
+.about .aboutme .i1 p{
+    margin-bottom:50px;
+}
+.ic img{
+    float: left;
+    margin-right:10px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+    padding:0px;
+    transition: 1s; 
+    border-radius: 25px;
+    
+}
+.ic img:hover{
+    transform: rotate(360deg);
+    
+    
+}
+
+
+/*end about me*/
+
+
+
+
+
+
+/*start prosres*/
+.prog{
+    
+    height:12.21cm;
+    overflow:hidden;
+    
+    
+    padding-top: 40px;
+
+}
+.prog .skill{
+    width:42%;
+    float:left;
+    height:100%;
+    padding-left:80px;
+    color: #555e63;
+    line-height: 25px;
+
+
+
+}
+.prog .skill button{
+
+    background-color: #ffffff;
+    border:1px solid #2ecc71;
+    color:#2ecc71;
+    padding: 8px 20px;
+    margin-top:15px;
+    
+    
+}
+.prog .progres{
+    width: 40%;
+    height:435px;
+    float: right;
+    color: #555e63;
+    overflow:hidden;
+    padding-top:20px;
+}
+.prog .progres .pro1{
+    width:100%;
+    height:20px;
+    
+    background-color:#f2f2f2;
+    text-align: right;
+    color: #FFF;
+    
+    
+}
+.prog .progres .pro21{
+    background-color:#2dcc70;
+    height:100%;
+    overflow: hidden;
+    width:90%;
+    
+}
+.prog .progres .pro22{
+    background-color:#2dcc70;
+    height:100%;
+    overflow: hidden;
+    width:80%;
+    
+
+}
+.prog .progres .pro23{
+    background-color:#2dcc70;
+    height:100%;
+    overflow: hidden;
+    width:90%;
+    
+}
+.prog .progres .pro24{
+    background-color:#2dcc70;
+    height:100%;
+    overflow: hidden;
+    width:70%;
+    
+
+}
+/*end prosres*/
+
+
+
+
+
+
+
+/*start res*/
+.res {
+    width:100%;
+    height:8.36cm;
+    background-color:#f2f2f2;
+    text-align: center;
+    padding-top: 60px;   
+}
+.res .contener h2,p{
+    color: #555e63;
+    line-height: 25px;
+
+}
+
+.res .contener button{
+
+    background-color: #f2f2f2;
+    border:1px solid #2ecc71;
+    color:#2ecc71;
+    padding: 8px 20px;
+    margin-top:15px;
+    
+    
+}
+.res .contener .rotate{
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    margin-left:45%;
+    margin-top:30px;
+    transform: rotate(40deg)
+}
+/*end res*/
+
+
+
+
+
+
+/* start my education */
+.myeducation{
+    width: 100%;
+    height: 16.19cm;
+    color:#555e63;
+    padding-top:1.83cm;
+    border-bottom: 1px solid #555e63;
+}
+.education{
+    width:45%;
+    float:left;
+    
+
+}
+.dplom{
+    width: 45%;
+    float:right;
+    
+    
+}
+.dplom h3{
+    margin-top:1.60cm;
+}
+.dplom button{
+    margin-bottom:20px;
+}
+.dplom hr{
+    color:#555e63;
+}
+.dplom button{
+    background-color:#30c875;
+    color:#fff;
+    padding:5px 8px;
+    border:0px;
+}
+
+/* end my education */
+/*  ++++++++++  */
+/*start work expriens*/
+.contener .wxp{
+    width: 100%;
+    height:22.58cm;
+    margin: 0px;
+    padding: 0px;
+    color:#555e63;
+    padding-top:1.83cm;
+
+}
+
+/*end work expriens*/
+
+
+
+/*start next reas*/
+.res .contener h4{
+    color:#555e63;
+}
+
+/*end next reas*/
+/*start platfolio*/
+ .portH {
+    color:#555e63;
+    width: 100%;
+    height: 27.76cm;
+    text-align: center;
+}
+.portH .contener{
+    height: 100%;
+    padding-top:1.80cm;
+}
+.portH .contener .portfolio{
+    width:26.08cm;
+    margin: auto;
+    margin-top:1.50cm;
+}
+.portH .contener .portfolio img{
+    margin:.40cm;
+    width:7.30cm;
+    height:6cm;
+}
+
+/*end platfolio*/
+/* start contact me*/
+.contact{
+    width: 100%;
+    height: 18cm;
+    padding-top:1.80cm;
+    background-color:#252f31;
+    
+
+
+}
+
+
+.contact  .cont{
+    width: 11.05cm;
+    float: left;
+    color: #555e63;
+    height: 7.55cm;
+    margin-left:220px;
+
+}
+.cont h2{margin-top:0px;
+         margin-bottom:30px;
+}
+.cont h2,td:first-child{
+    color: #fff;
+}
+td:last-child{
+    padding-left: 30px;
+}
+.form {
+    width:10.80cm;
+    height: 14cm;
+    float: right;
+    margin-right:220px; 
+}
+.form form{
+    width:100%;
+    height: 100%;
+    color: #929898;
+}
+form .name , .massag{
+    width:402px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #4b5557;
+    border: 0px;
+}
+form .name{
+    height: 1.13cm;
+
+}
+ form .massag{
+     background-color: #4b5557;
+ }
+ form .sup{
+     background-color: #191e22;
+     color:#fff;
+     border: 0px;
+     width: 3.70cm;
+     height: 1.13cm;
+ }
+/* end contact me*/
+/*start footer*/
+.footer{
+    text-align: center;
+    height:3.54cm;
+    background-color:#191e22;
+    overflow: hidden;
+}
+.footer img {
+    width:35px;
+    height:35px;
+    margin:3px;
+    border-radius: 20px;
+}
+.footer img:hover{
+    background-color: #929898;
+}
+/*end footer*/
